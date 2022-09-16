@@ -19,11 +19,7 @@ import os
 from Lucifer import ALIVE_NAME, CMD_HELP, CMD_HNDLR, CMD_LIST
 from Lucifer.LuciferConfig import Config, Var
 
-HELP_PIC = (
-    Var.HELP_PIC
-    if Var.HELP_PIC
-    else "https://telegra.ph/file/73373552e9217e010e853.jpg"
-)
+HELP_PIC = Var.HELP_PIC if Var.HELP_PIC else "https://telegra.ph/file/73373552e9217e010e853.jpg"
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lucifer User"
 CMD_HNDLR = Config.CMD_HNDLR
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "⫸")
@@ -88,5 +84,5 @@ async def cmd_list(event):
                 await event.delete()
             except BaseException:
                 await event.edit(
-                    f"𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙸𝚂 𝙳𝙸𝚂𝙰𝙱𝙻𝙴. 𝙿𝙻𝙴𝙰𝚂𝙴 𝚄𝙽𝙰𝙱𝙻𝙴 𝚃𝙾 𝚄𝚂𝙴 `{CMD_HNDLR}help`.\n𝙵𝙾𝚁 𝙰𝙽𝚃 𝙷𝙴𝙻𝙿 [here](t.me/Lucifer_support_grou)"
+                    f"𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙸𝚂 𝙳𝙸𝚂𝙰𝙱𝙻𝙴. 𝙿𝙻𝙴𝙰𝚂𝙴 𝚄𝙽𝙰𝙱𝙻𝙴 𝚃𝙾 𝚄𝚂𝙴 `{CMD_HNDLR}help`.\n𝙵𝙾𝚁 𝙰𝙽𝚃 𝙷𝙴𝙻𝙿 [here](t.me/Lucifer_support_group)"
                 )
