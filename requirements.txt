@@ -106,7 +106,7 @@ spotdl
 sqlalchemy
 telegraph
 twitter_scraper
-telethon
+telethon==1.24.0
 tgcrypto
 tswift
 html-telegraph-poster
