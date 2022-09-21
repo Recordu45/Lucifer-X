@@ -92,8 +92,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             but += [[custom.Button.inline("Iɴʟɪɴᴇ", data="linline")]]
             but += [
                 [
-                    Button.url("🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "https://t.me/dominator_bot_support"),
-                    Button.url("🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "https://t.me/dominator_bot_official"),
+                    Button.url(
+                        "🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "https://t.me/dominator_bot_support"
+                    ),
+                    Button.url(
+                        "🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "https://t.me/dominator_bot_official"
+                    ),
                 ]
             ]
             result = builder.photo(
@@ -161,7 +165,8 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     ],
                     [
                         custom.Button.url(
-                            "👨‍💻Source Code‍💻", "https://github.com/DOMINATOR-XD/Lucifer-X"
+                            "👨‍💻Source Code‍💻",
+                            "https://github.com/DOMINATOR-XD/Lucifer-X",
                         ),
                         custom.Button.url(
                             "Deploy 🌀",
