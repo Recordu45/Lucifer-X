@@ -45,7 +45,7 @@ def get_readable_time(seconds: int) -> str:
 @Lucifer.on(admin_cmd(pattern="ping$"))
 @Lucifer.on(sudo_cmd(pattern="ping$", allow_sudo=True))
 async def ping_pong(client: Client, message: Message):
-    start = uptime()
+    start = time()
     m_reply = await message.reply_text("ᴘɪɴɢ..... 👀")
     delta_ping = time() - start
     await message.reply_photo(
