@@ -28,7 +28,7 @@ async def cmd_list(event):
                         out_file,
                         force_document=True,
                         allow_cache=False,
-                        caption="**COMMANDS** In DARK Ultra",
+                        caption="**COMMANDS** In LuciferX",
                         reply_to=reply_to_id,
                     )
                     await event.delete()
@@ -70,7 +70,7 @@ async def _(event):
     result = await borg(functions.help.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
     logger.info(result)  # pylint:disable=E0602
-    await event.edit("Telethon UserBot powered byDark_ultra")
+    await event.edit("Telethon UserBot powered by LuciferX")
 
 
 @borg.on(admin_cmd(pattern="syntax (.*)"))
