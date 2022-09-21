@@ -1,4 +1,4 @@
-<h2 align="center"><b>OwNeR <a href="https://telegram.dog/THANOSCEO ">『RISHABH』</a></b></h2>
+<h2 align="center"><b>OwNeR <a href="https://t.me/N1xDOMINATOR ">『𖣔ꠋꠋ𑲭𑲭𑲭𑲭𑲭‌🦋⃟≛⃝🖤҉ ‌𓆪‌⍣⃟𝐍1𝐱乛𝐃𝐎𝐌𝐈𝐍𝐀𝐓𝐎𝐑𓆪‌⍣⃟❤︎𓆪‌⍣⃟𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭』</a></b></h2>
 # Lucifer-X
 > Telethon based userbot (•~•)
 <h1 align="center">⚡Lucifer-X⚡</h1>
@@ -24,7 +24,7 @@
 
  <h1 align="center">💫String Session💫</h1>
 
- [![Run on Repl.it](https://repl.it/badge/github/kaal0408/Lucifer-X&theme=midnight-purple)](https://replit.com/@Lightyagami788/LUCIFER-REPL#main.py)
+ [![Run on Repl.it](https://repl.it/badge/github/@dominator454/stringforbot&theme=midnight-purple)](https://replit.com/@dominator454/stringforbot?v=1)
 
 
 
