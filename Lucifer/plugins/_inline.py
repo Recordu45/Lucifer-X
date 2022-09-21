@@ -92,8 +92,8 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             but += [[custom.Button.inline("Iɴʟɪɴᴇ", data="linline")]]
             but += [
                 [
-                    Button.url("🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "t.me/Lucifer_support_group"),
-                    Button.url("🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "t.me/LuciferXupdates"),
+                    Button.url("🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "https://t.me/dominator_bot_support"),
+                    Button.url("🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "https://t.me/dominator_bot_official"),
                 ]
             ]
             result = builder.photo(
@@ -108,11 +108,11 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 text=f"**𝙻𝙴𝚃𝙷𝙰𝙻 𝚄𝙱 𝚂𝚃𝙰𝚃𝚂 𝙾𝙵 𝚃𝙷𝙴 [{DEFAULTUSER}](tg://user?id={myid})**\n\n__𝙱𝙾𝚃 𝙸𝚂 𝚂𝙼𝙾𝙾𝚃𝙷𝙻𝚈 𝚁𝚄𝙽𝙽𝙸𝙽𝙶, 𝙼𝙰𝚂𝚃𝙴𝚁!__\n\n(c) @Lucifer_support_group",
                 buttons=[
                     [custom.Button.inline("Stats", data="statcheck")],
-                    [Button.url("Repo", "https://github.com/kaal0408/Lucifer-X")],
+                    [Button.url("Repo", "https://github.com/DOMINATOR-XD/Lucifer-X")],
                     [
                         Button.url(
                             "𝙳𝙴𝙿𝙻𝙾𝚈 𝙽𝙾𝚆!",
-                            "https://heroku.com/deploy?template=https://github.com/kaal0408/Lucifer-X",
+                            "https://heroku.com/deploy?template=https://github.com/DOMINATOR-XD/Lucifer-X",
                         )
                     ],
                 ],
@@ -139,14 +139,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     [
                         Button.url(
                             "L U C I F E R 𝚁𝙴𝙿𝙾",
-                            "https://github.com/kaal0408/Lucifer-X",
+                            "https://github.com/DOMINATOR-XD/Lucifer-X",
                         ),
                         Button.url(
                             "𝙳𝙴𝙿𝙻𝙾𝚈 𝙽𝙾𝚆",
-                            "https://heroku.com/deploy?template=https://github.com/kaal0408/Lucifer-X",
+                            "https://heroku.com/deploy?template=https://github.com/DOMINATOR-XD/Lucifer-X",
                         ),
                     ],
-                    [Button.url("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃", "https://t.me/Lucifer_support_group")],
+                    [Button.url("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃", "https://t.me/dominator_bot_support")],
                 ],
             )
         else:
@@ -156,21 +156,21 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 buttons=[
                     [
                         custom.Button.url(
-                            "🚑 Support Group 🚑", "https://t.me/destroyxsupport"
+                            "🚑 Support Group 🚑", "https://t.me/dominator_bot_support"
                         )
                     ],
                     [
                         custom.Button.url(
-                            "👨‍💻Source Code‍💻", "https://github.com/kaal0408/Lucifer-X"
+                            "👨‍💻Source Code‍💻", "https://github.com/DOMINATOR-XD/Lucifer-X"
                         ),
                         custom.Button.url(
                             "Deploy 🌀",
-                            "https://heroku.com/deploy?template=https://github.com/kaal0408/Lucifer-X",
+                            "https://heroku.com/deploy?template=https://github.com/DOMINATOR-XD/Lucifer-X",
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "Updates ↗️", "https://t.me/Lucifer_support_group"
+                            "Updates ↗️", "https://t.me/dominator_bot_support"
                         )
                     ],
                 ],
