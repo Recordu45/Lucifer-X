@@ -1,4 +1,4 @@
-<h2 align="center"><b>OwNeR <a href="https://t.me/N1xDOMINATOR ">『🦋⃟≛⃝🖤҉ ‌𓆪‌⍣⃟𝐍1𝐱乛𝐃𝐎𝐌𝐈𝐍𝐀𝐓𝐎𝐑𓆪‌⍣⃟❤︎』</a></b></h2>
+<h2 align="center"><b>OwNeR <a href="https://t.me/N1xDOMINATOR ">『𝐍1𝐱乛𝐃𝐎𝐌𝐈𝐍𝐀𝐓𝐎𝐑』</a></b></h2>
 # Lucifer-X
 > Telethon based userbot (•~•)
 <h1 align="center">⚡Lucifer-X⚡</h1>
