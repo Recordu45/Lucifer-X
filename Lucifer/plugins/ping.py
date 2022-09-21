@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 
 from Lucifer import CMD_HELP
-from Lucifer.__init__ import StartTime
+from Lucifer.init import StartTime
 from Lucifer.plugins import ALIVE_NAME, OWNER_ID
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓυcιғεя υsεя"
@@ -49,12 +49,14 @@ async def _(event):
         return
     start = datetime.now()
     x = await eor(event, "⛝ ＰＯＮＧ! ⛝")
+
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    uptime = get_readable_time((time.time() - StartTime))
-    await x.edit(
-        f"https://telegra.ph/file/42a423c45e4146cf8a94c.mp4\n\n✘ **🥀ριиg🥀** : `{ms}`\n✘ **💖υρтιмє💖** : `{uptime}`\n✘ **𝐌𝐘 𝐏𝐄𝐑𝐎 𝐌𝐀𝐒𝐓𝐄𝐑** : [{DEFAULTUSER}](tg://user?id={OWNER_ID})\n\n© [𝙻ucifer 𝚇 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/dominator_bot_official)"
-    )
+    uptime = get_readable_time((time.time()  StartTime))
+   caption = f"✘ 🥀ριиg🥀 : {ms}\n✘ 💖υρтιмє💖 : {uptime}\n✘ 𝐌𝐘 𝐏𝐄𝐑𝐎 𝐌𝐀𝐒𝐓𝐄𝐑 : [{DEFAULTUSER}](tg://user?id={OWNER_ID})\n\n© [𝙻ucifer 𝚇 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/dominator_bot_official)"
+   ping_file = "https://telegra.ph/file/42a423c45e4146cf8a94c.mp4"
+    await event.send_file(chat , file=ping_file , caption=caption
+        )
 
 
 CMD_HELP.update({"ping": ".ping\nUse - See the ping stats and uptime of userbot."})
