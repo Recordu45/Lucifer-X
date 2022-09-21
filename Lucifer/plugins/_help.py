@@ -66,18 +66,18 @@ async def cmd_list(event):
                 if input_str in CMD_HELP:
                     for i in CMD_HELP[input_str]:
                         string += i
-                    string += "\n\n**© @Lucifer_support_group**"
+                    string += "\n\n**© @dominator_bot_official**"
                     await event.edit(string)
                 else:
                     for i in CMD_LIST[input_str]:
                         string += "    " + i
                         string += "\n"
-                    string += "\n**© @Lucifer_support_group**"
+                    string += "\n**© @dominator_bot_official**"
                     await event.edit(string)
             else:
                 await event.edit(input_str + " 𝙸𝚂 𝙽𝙾𝚃 𝙰 𝚅𝙰𝙻𝙸𝙳 𝙿𝙻𝚄𝙶𝙸𝙽!!")
         else:
-            help_string = f"""`𝘭Lucifer υв нєℓρ мєиυ ρяσνι∂є∂ ву` [тєαм ?Lucifer𝘭 υв](t.me/Lucifer_support_group) fσя **{DEFAULTUSER}**\nɪғ ɪɴ ᴄᴀsᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴅᴏᴇsɴ'ᴛ ᴀᴘᴘᴇᴀʀ Tʜᴀɴ ᴜ ᴄᴀɴ ᴜsᴇ `.help plugin name`\n\n"""
+            help_string = f"""`𝘭Lucifer υв нєℓρ мєиυ ρяσνι∂є∂ ву` [тєαм ?Lucifer𝘭 υв](https://t.me/dominator_bot_official) fσя **{DEFAULTUSER}**\nɪғ ɪɴ ᴄᴀsᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴅᴏᴇsɴ'ᴛ ᴀᴘᴘᴇᴀʀ Tʜᴀɴ ᴜ ᴄᴀɴ ᴜsᴇ `.help plugin name`\n\n"""
             try:
                 results = await bot.inline_query(  # pylint:disable=E0602
                     tgbotusername, help_string
@@ -88,5 +88,5 @@ async def cmd_list(event):
                 await event.delete()
             except BaseException:
                 await event.edit(
-                    f"𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙸𝚂 𝙳𝙸𝚂𝙰𝙱𝙻𝙴. 𝙿𝙻𝙴𝙰𝚂𝙴 𝚄𝙽𝙰𝙱𝙻𝙴 𝚃𝙾 𝚄𝚂𝙴 `{CMD_HNDLR}help`.\n𝙵𝙾𝚁 𝙰𝙽𝚃 𝙷𝙴𝙻𝙿 [here](t.me/Lucifer_support_group)"
+                    f"𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙸𝚂 𝙳𝙸𝚂𝙰𝙱𝙻𝙴. 𝙿𝙻𝙴𝙰𝚂𝙴 𝚄𝙽𝙰𝙱𝙻𝙴 𝚃𝙾 𝚄𝚂𝙴 `{CMD_HNDLR}help`.\n𝙵𝙾𝚁 𝙰𝙽𝚃 𝙷𝙴𝙻𝙿 [here](https://t.me/dominator_bot_support)"
                 )
