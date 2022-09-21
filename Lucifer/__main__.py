@@ -80,9 +80,9 @@ print("TGBot set up - Level - Basic")
 print(
     """
                 ----------------------------------------------------------------------
-                    LUCIFER X ʜᴀs ʙᴇᴇɴ ᴅᴇᴘʟᴏʏᴇᴅ, ᴅᴏ ᴠɪsɪᴛ @LuciferXsupport !!
+                    LUCIFER X ʜᴀs ʙᴇᴇɴ ᴅᴇᴘʟᴏʏᴇᴅ, ᴅᴏ ᴠɪsɪᴛ @dominator_bot_support !!
                     LUCIFER ᴠᴇʀ: V2.2
-                    ©Tᴇᴀᴍ ʟɪᴏɴ
+                    ©TRAM DOMINATOR
                 ----------------------------------------------------------------------
 """
 )
