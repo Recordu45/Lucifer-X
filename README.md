@@ -1,4 +1,4 @@
-<h2 align="center"><b>OwNeR <a href="https://t.me/N1xDOMINATOR ">『𝐍1𝐱乛𝐃𝐎𝐌𝐈𝐍𝐀𝐓𝐎𝐑』</a></b></h2>
+<h2 align="center"><b>OwNeR <a href="https://t.me/N1xDOMINATOR">『𝐍1𝐱乛𝐃𝐎𝐌𝐈𝐍𝐀𝐓𝐎𝐑』</a></b></h2>
 # Lucifer-X
 > Telethon based userbot (•~•)
 <h1 align="center">⚡Lucifer-X⚡</h1>
@@ -32,7 +32,7 @@
 
 <a href="https://t.me/LuciferXUpdates"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://t.me/Lucifer_support_group"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/dominator_bot_support"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 
