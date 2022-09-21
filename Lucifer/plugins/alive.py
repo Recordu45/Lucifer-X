@@ -50,10 +50,10 @@ async def hmm(yes):
     pm_caption += f"{luciferemoji} **LUCIFER 𝙓 𝙑𝙀𝙍𝙎𝙄𝙊𝙉**: `{luciferver}`\n"
     pm_caption += f"{luciferemoji} **𝙏𝙀𝙇𝙀𝙏𝙃𝙊𝙉 𝙑𝙀𝙍𝙎𝙄𝙊𝙉** ☞ {version.__version__}\n"
     pm_caption += (
-        f"{luciferemoji} **𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝘾𝙃𝘼𝙉𝙉𝙀𝙇** ☞ [ᴊᴏɪɴ](https://t.me/LuciferXUpdates)\n"
+        f"{luciferemoji} **𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝘾𝙃𝘼𝙉𝙉𝙀𝙇** ☞ [ᴊᴏɪɴ](https://t.me/dominator_bot_official)\n"
     )
-    pm_caption += f"{luciferemoji} **𝙇𝙄𝘾𝙀𝙉𝙎𝙀**  ☞ [TEAM LUCIFER 𝚄𝙱](https://github.com/kaal0408/Lucifer-X)\n"
-    pm_caption += f"{luciferemoji} **𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔** ☞ [LUCIFER 𝚄𝙱](https://github.com/kaal0408/Lucifer-X)\n\n"
+    pm_caption += f"{luciferemoji} **𝙇𝙄𝘾𝙀𝙉𝙎𝙀**  ☞ [TEAM LUCIFER 𝚄𝙱](https://github.com/dominator454/Lucifer-X)\n"
+    pm_caption += f"{luciferemoji} **𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔** ☞ [LUCIFER 𝚄𝙱](https://github.com/DOMINATOR-XD/Lucifer-X)\n\n"
     pm_caption += f"{luciferemoji} **LUCIFER 𝙐𝙋𝙏𝙄𝙈𝙀** ☞ {uptime}\n\n"
     pm_caption += (
         f"{luciferemoji} **𝙈𝙔 𝙋𝙀𝙍𝙊 𝙈𝘼𝙎𝙏𝙀𝙍** ☞ [{DEFAULTUSER}](tg://user?id={fuk})\n"
