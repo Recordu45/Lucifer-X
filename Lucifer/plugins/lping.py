@@ -53,7 +53,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
     await x.edit(
-        f"[LUCIFER](https://telegra.ph/file/42a423c45e4146cf8a94c.mp4)\n\n✘ **ριиg** : `{ms}`\n✘ **υρтιмє** : `{uptime}`\n✘ **𝐌𝐘 𝐏𝐄𝐑𝐎 𝐌𝐀𝐒𝐓𝐄𝐑** : [{DEFAULTUSER}](tg://user?id={OWNER_ID})\n😎𝗖𝗥𝗘𝗔𝗧𝗢𝗥😎    : [Ꭰօʍìղąէօɾ](https://t.me/dominator_bot_official)\n\n[© 𝙻ucifer 𝚇 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/dominator_bot_official)"
+        f"[LUCIFER](https://telegra.ph/file/42a423c45e4146cf8a94c.mp4)\n\n█████████\n█▄█████▄█\n█▼▼▼▼▼\n█🔥Luciferβօէ įʂ ටղƑìɾҽ🔥\n█▲▲▲▲▲\n█████████\n██ ██\n\n✘ **ριиg** : `{ms}`\n✘ **υρтιмє** : `{uptime}`\n✘ **𝐌𝐘 𝐏𝐄𝐑𝐎 𝐌𝐀𝐒𝐓𝐄𝐑** : [{DEFAULTUSER}](tg://user?id={OWNER_ID})\n😎𝗖𝗥𝗘𝗔𝗧𝗢𝗥😎    : [Ꭰօʍìղąէօɾ](https://t.me/dominator_bot_official)\n\n[© 𝙻ucifer 𝚇 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/dominator_bot_official)"
     )
 
 
